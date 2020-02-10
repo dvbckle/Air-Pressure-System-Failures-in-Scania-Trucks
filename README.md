@@ -23,10 +23,17 @@ From the original competition description:
  Total_cost = Cost_1*No_Instances + Cost_2*No_Instances
  
  The Notebook Scania_Truck_Air_System_Inspection_Prediction loads the data (training & test files) and:
+    
     Changes feature values in the import that are object fields to numeric
+    
     Ranks features via a Spearman correlation and drops low correlation features
+    
     Finds feature importance via an initial Random Forest fit on a reduced set without NaN's, and drops low importance features
+    
     Finds a best fit using RandomizedSearch on the reduced set (~95% of samples) 
+    
     Fills any NaN's with the mode value for each feature in both Training and Test sources
+    
     Fits a RandomForestClassifier on the final NaN filled training set using the hyperparametes from the RandomizedSearch
+    
     Predicts and costs the false negatives plus false positives on the Test set 
