@@ -1,6 +1,8 @@
 # Air-Pressure-System-Failures-in-Scania-Trucks
 Air pressure system failures in Scania trucks, data from UCI ML via Kaggle
 
+See Summary pdf slide for results.
+
 Air Pressure System Failures in Scania Trucks
 Data downloaded from Kaggle (UCI ML). https://www.kaggle.com/uciml/aps-failure-at-scania-trucks-data-set License is GPL 2
 Data is also available from UCI Machine Learning Repository and is published under the GNU General Public License.
