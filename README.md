@@ -39,3 +39,5 @@ From the original competition description:
    Fits a RandomForestClassifier on the final NaN filled training set using the hyperparametes from the RandomizedSearch
     
    Predicts and costs the false negatives plus false positives on the Test set 
+   
+   Use of my Notebooks is allowed (without warranty) under the same license as the original dataset, per that license, GNU General Public License available her <http://www.gnu.org/licenses/>  (http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html  from Kaggle dataset page)
